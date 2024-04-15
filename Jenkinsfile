@@ -14,7 +14,7 @@ pipeline {
             steps {
                 script {
                     // build image
-                    docker.build("335871625378.dkr.ecr.eu-west-2.amazonaws.com/netflix-job:latest")
+                    docker.build("987731527829.dkr.ecr.us-east-2.amazonaws.com/netflix-job:latest")
                }
             }
         }
